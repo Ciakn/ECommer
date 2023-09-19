@@ -1,0 +1,148 @@
+/* -------------------------TABLET--------------------- */
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 94%;
+    grid-template-columns: 7rem auto 23rem;
+  }
+  .logo h2 {
+    display: none;
+  }
+  aside .sidebar h3 {
+    display: none;
+  }
+  aside .sidebar a {
+    width: 5.6rem;
+  }
+  aside .sidebar a:last-child {
+    position: relative;
+    margin-top: 1.8rem;
+  }
+  main .insights {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  main .recent-orders {
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 2rem 0 0 8.8rem;
+  }
+  main .recent-orders table {
+    width: 78vw;
+  }
+  main .recent-orders table thead th:first-child,
+  main .recent-orders table thead th:last-child {
+    display: none;
+  }
+  main .recent-orders table tbody td:first-child,
+  main .recent-orders table tbody td:last-child {
+    display: none;
+  }
+}
+/* ----------------------------MoBile---------------------------- */  
+@media screen and (max-width: 768px) {
+   
+    .container{
+        width: 95% ;
+        margin: auto;
+        grid-template-columns: 1fr;
+       
+    }
+ aside {
+   background-color: var(--color-white);
+    position: fixed;
+    left: -100%;
+    z-index: 10;
+    width: 18rem;
+    height: 100vh;
+    background-color: var(rgb(255, 255, 255));
+    box-shadow: 1rem 3rem 4rem var(--color-light);
+    padding: var(--card-padding);
+    display: none;
+    animation: Showmenu 400ms ease forwards;
+  
+ }
+@keyframes Showmenu {
+ to{
+    left: 0;
+ }
+}
+ aside .sidebar a {
+    width: 100%;
+ }
+
+ aside .sidebar h3 {
+    display: block;
+ }
+
+ .logo h2 {
+    display: block;
+    
+ }
+ .logo{
+    margin-left: 1rem;
+ }
+ aside .close{
+    display: block;
+    cursor: pointer;
+ }
+ .right{
+    width: 94%;
+    margin: 0 auto 4rem;
+ }
+ .right .top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+   /* padding:  0.8rem; */
+    background-color: var(--color-white);
+    z-index: 2;
+    box-shadow: 0 1rem 1rem var(--color-light);
+    height: 4.6rem;
+ }
+ 
+ main {
+    margin-top: 8rem;
+ }
+ .ham-menu{
+    display: block;
+    position: absolute;
+    left: 2rem;
+    outline: none;
+    width: 30px;
+ }
+.right .top .profile .profile-info{
+    display: none;
+}
+main .recent-orders {
+    transform: translateX();
+    position: relative;
+    margin: 3rem 0 0 0 ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    
+}
+.sale-analytics{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.recent-updaates{
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+width: auto;
+}
+.recent-orders table{
+    width: 100%;
+    margin: 0;
+    /* transform: translateX(0); */
+}
+}

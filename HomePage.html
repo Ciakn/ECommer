@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- end of icons -->
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- end of fonts -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>responsive e-commer</title>
+    <link rel="stylesheet" href="./Style.css" />
+    <link rel="stylesheet" href="./responsive.css">
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <div class="top">
+          <div class="logo">
+            <img src="./images/logo.png" alt="" />
+            <h2>Kian <span class="danger"> SR</span></h2>
+          </div>
+
+          <div class="close" id="close-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="48"
+              viewBox="0 96 960 960"
+              width="48"
+            >
+              <path
+                d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="sidebar">
+          <a class="active" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="48"
+              viewBox="0 96 960 960"
+              width="48"
+            >
+              <path
+                d="M120 546V216h330v330H120Zm0 390V606h330v330H120Zm390-390V216h330v330H510Zm0 390V606h330v330H510ZM180 486h210V276H180v210Zm390 0h210V276H570v210Zm0 390h210V666H570v210Zm-390 0h210V666H180v210Zm390-390Zm0 180Zm-180 0Zm0-180Z"
+              />
+            </svg>
+            <h3>Dashboard</h3>
+          </a>
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="48"
+              viewBox="0 96 960 960"
+              width="48"
+            >
+              <path
+                d="M480 575q-66 0-108-42t-42-108q0-66 42-108t108-42q66 0 108 42t42 108q0 66-42 108t-108 42ZM160 896v-94q0-38 19-65t49-41q67-30 128.5-45T480 636q62 0 123 15.5t127.921 44.694q31.301 14.126 50.19 40.966Q800 764 800 802v94H160Zm60-60h520v-34q0-16-9.5-30.5T707 750q-64-31-117-42.5T480 696q-57 0-111 11.5T252 750q-14 7-23 21.5t-9 30.5v34Zm260-321q39 0 64.5-25.5T570 425q0-39-25.5-64.5T480 335q-39 0-64.5 25.5T390 425q0 39 25.5 64.5T480 515Zm0-90Zm0 411Z"
+              />
+            </svg>
+            <h3>Customers</h3>
+          </a>
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="48"
+              viewBox="0 96 960 960"
+              width="48"
+            >
+              <path
+                d="M279.982 649q14.018 0 23.518-9.482 9.5-9.483 9.5-23.5 0-14.018-9.482-23.518-9.483-9.5-23.5-9.5-14.018 0-23.518 9.482-9.5 9.483-9.5 23.5 0 14.018 9.482 23.518 9.483 9.5 23.5 9.5Zm0-160q14.018 0 23.518-9.482 9.5-9.483 9.5-23.5 0-14.018-9.482-23.518-9.483-9.5-23.5-9.5-14.018 0-23.518 9.482-9.5 9.483-9.5 23.5 0 14.018 9.482 23.518 9.483 9.5 23.5 9.5ZM360 646h360v-60H360v60Zm0-160h360v-60H360v60Zm-30 450v-80H140q-24 0-42-18t-18-42V276q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H630v80H330ZM140 796h680V276H140v520Zm0 0V276v520Z"
+              />
+            </svg>
+            <h3>Orders</h3>
+          </a>
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="48"
+              viewBox="0 96 960 960"
+              width="48"
+            >
+              <path
+                d="M120 936v-76l60-60v136h-60Zm165 0V700l60-60v296h-60Zm165 0V640l60 61v235h-60Zm165 0V701l60-60v295h-60Zm165 0V540l60-60v456h-60ZM120 700v-85l280-278 160 160 280-281v85L560 582 400 422 120 700Z"
+              />
+            </svg>
+            <h3>Analysis</h3>
+          </a>
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="48"
+              viewBox="0 96 960 960"
+              width="48"
+            >
+              <path
+                d="M140 896q-24 0-42-18t-18-42V316q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H140Zm340-302L140 371v465h680V371L480 594Zm0-60 336-218H145l335 218ZM140 371v-55 520-465Z"
+              />
+            </svg>
+            <h3>Messages</h3>
+            <span class="messages-count">25</span>
+          </a>
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="48"
+              viewBox="0 96 960 960"
+              width="48"
+            >
+              <path
+                d="M120 914V422q-14-2-27-20t-13-39V236q0-23 18-41.5t42-18.5h680q23 0 41.5 18.5T880 236v127q0 21-13 39t-27 20v492q0 23-18.5 42.5T780 976H180q-24 0-42-19.5T120 914Zm60-491v493h600V423H180Zm640-60V236H140v127h680ZM360 633h240v-60H360v60ZM180 916V423v493Z"
+              />
+            </svg>
+            <h3>Prodocts</h3>
+          </a>
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="48"
+              viewBox="0 96 960 960"
+              width="48"
+            >
+              <path
+                d="M480 775q14 0 24.5-10.5T515 740q0-14-10.5-24.5T480 705q-14 0-24.5 10.5T445 740q0 14 10.5 24.5T480 775Zm-30-144h60V368h-60v263ZM330 936 120 726V426l210-210h300l210 210v300L630 936H330Zm25-60h250l175-175V451L605 276H355L180 451v250l175 175Zm125-300Z"
+              />
+            </svg>
+            <h3>Reports</h3>
+          </a>
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="48"
+              viewBox="0 96 960 960"
+              width="48"
+            >
+              <path
+                d="m388 976-20-126q-19-7-40-19t-37-25l-118 54-93-164 108-79q-2-9-2.5-20.5T185 576q0-9 .5-20.5T188 535L80 456l93-164 118 54q16-13 37-25t40-18l20-127h184l20 126q19 7 40.5 18.5T669 346l118-54 93 164-108 77q2 10 2.5 21.5t.5 21.5q0 10-.5 21t-2.5 21l108 78-93 164-118-54q-16 13-36.5 25.5T592 850l-20 126H388Zm92-270q54 0 92-38t38-92q0-54-38-92t-92-38q-54 0-92 38t-38 92q0 54 38 92t92 38Zm0-60q-29 0-49.5-20.5T410 576q0-29 20.5-49.5T480 506q29 0 49.5 20.5T550 576q0 29-20.5 49.5T480 646Zm0-70Zm-44 340h88l14-112q33-8 62.5-25t53.5-41l106 46 40-72-94-69q4-17 6.5-33.5T715 576q0-17-2-33.5t-7-33.5l94-69-40-72-106 46q-23-26-52-43.5T538 348l-14-112h-88l-14 112q-34 7-63.5 24T306 414l-106-46-40 72 94 69q-4 17-6.5 33.5T245 576q0 17 2.5 33.5T254 643l-94 69 40 72 106-46q24 24 53.5 41t62.5 25l14 112Z"
+              />
+            </svg>
+            <h3>Setting</h3>
+          </a>
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="48"
+              viewBox="0 96 960 960"
+              width="48"
+            >
+              <path
+                d="M450 856V606H200v-60h250V296h60v250h250v60H510v250h-60Z"
+              />
+            </svg>
+            <h3>Add Product</h3>
+          </a>
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="48"
+              viewBox="0 96 960 960"
+              width="48"
+            >
+              <path
+                d="M180 936q-24 0-42-18t-18-42V276q0-24 18-42t42-18h291v60H180v600h291v60H180Zm486-185-43-43 102-102H375v-60h348L621 444l43-43 176 176-174 174Z"
+              />
+            </svg>
+            <h3>Log out</h3>
+          </a>
+        </div>
+      </aside>
+      <!-- --------------------end of aside--------------------- -->
+      <main>
+        <h1>Dashbord</h1>
+        <div class="date">
+          <input type="date" />
+        </div>
+        <div class="insights">
+          <div class="sales">
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="48"
+                viewBox="0 96 960 960"
+                width="48"
+              >
+                <path
+                  d="M200 896V656h100v240H200Zm250 0V456h100v440H450Zm250 0V256h100v640H700Z"
+                /></svg
+            ></span>
+            <div class="middle">
+              <div class="left">
+                <h3>
+                  Total
+                  <br />
+                  Sales
+                </h3>
+                <h1>22,412</h1>
+              </div>
+              <div class="progress">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="48"
+                  viewBox="0 96 960 960"
+                  width="48"
+                >
+                  <path
+                    d="M480.978 1000q-87.649 0-164.081-33.327-76.431-33.327-133.968-90.888-57.538-57.561-91.733-134.515Q57 664.316 57 576.984q0-166.724 113.356-288.416Q283.711 166.877 452 154v136q-111 8.965-185.5 91.265T192 576.628q0 119.551 84.531 203.961Q361.061 865 481.081 865q70.047 0 131.901-32Q674.836 801 718 744l117 70.391Q774 902 681.034 951q-92.965 49-200.056 49Zm382.404-240L747 692q12-29.342 17.5-58.537 5.5-29.196 5.5-57.359 0-113.772-73.217-195.984Q623.567 297.908 512 289V153q168 11 281 131.925Q906 405.85 906 571.704q0 47.361-11 94.328Q884 713 863.382 760Z"
+                  />
+                </svg>
+                <div class="number"><p>18%</p></div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 hour</small>
+          </div>
+
+          <div class="expenses">
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="48"
+                viewBox="0 96 960 960"
+                width="48"
+              >
+                <path
+                  d="M160 896V456h140v440H160Zm250 0V256h140v640H410Zm250 0V616h140v280H660Z"
+                />
+              </svg>
+            </span>
+            <div class="middle">
+              <div class="left">
+                <h3>income Sales</h3>
+                <h1>14,024</h1>
+              </div>
+              <div class="progress">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="48"
+                  viewBox="0 96 960 960"
+                  width="48"
+                >
+                  <path
+                    d="M480.978 1000q-87.649 0-164.081-33.327-76.431-33.327-133.968-90.888-57.538-57.561-91.733-134.515Q57 664.316 57 576.984q0-166.724 113.356-288.416Q283.711 166.877 452 154v136q-111 8.965-185.5 91.265T192 576.628q0 119.551 84.531 203.961Q361.061 865 481.081 865q70.047 0 131.901-32Q674.836 801 718 744l117 70.391Q774 902 681.034 951q-92.965 49-200.056 49Zm382.404-240L747 692q12-29.342 17.5-58.537 5.5-29.196 5.5-57.359 0-113.772-73.217-195.984Q623.567 297.908 512 289V153q168 11 281 131.925Q906 405.85 906 571.704q0 47.361-11 94.328Q884 713 863.382 760Z"
+                  />
+                </svg>
+                <div class="number"><p>58%</p></div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 hour</small>
+          </div>
+          <div class="income">
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="48"
+                viewBox="0 96 960 960"
+                width="48"
+              >
+                <path
+                  d="m140 971-46-46 300-300 160 161 298-335 42 41-340 384-160-159-254 254Zm0-269-46-46 300-300 160 161 298-335 42 41-340 384-160-159-254 254Z"
+                /></svg
+            ></span>
+            <div class="middle">
+              <div class="left">
+                <h3>total expenses</h3>
+                <h1>12,024</h1>
+              </div>
+              <div class="progress">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="48"
+                  viewBox="0 96 960 960"
+                  width="48"
+                >
+                  <path
+                    d="M480.978 1000q-87.649 0-164.081-33.327-76.431-33.327-133.968-90.888-57.538-57.561-91.733-134.515Q57 664.316 57 576.984q0-166.724 113.356-288.416Q283.711 166.877 452 154v136q-111 8.965-185.5 91.265T192 576.628q0 119.551 84.531 203.961Q361.061 865 481.081 865q70.047 0 131.901-32Q674.836 801 718 744l117 70.391Q774 902 681.034 951q-92.965 49-200.056 49Zm382.404-240L747 692q12-29.342 17.5-58.537 5.5-29.196 5.5-57.359 0-113.772-73.217-195.984Q623.567 297.908 512 289V153q168 11 281 131.925Q906 405.85 906 571.704q0 47.361-11 94.328Q884 713 863.382 760Z"
+                  />
+                </svg>
+                <div class="number"><p>38%</p></div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 hour</small>
+          </div>
+        </div>
+        <div class="recent-orders">
+          <h2>Recent Orders</h2>
+          <table>
+            <thead>
+              <th>Prudoct name</th>
+              <th>Prudoct Number</th>
+              <th>Payment</th>
+              <th>Status</th>
+              <th>Details</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Foldble mini drone</td>
+                <td>85631</td>
+                <td>due</td>
+                <td class="warning">pending</td>
+
+                <td class="primary">Detatils</td>
+              </tr>
+              <tr>
+                <td>Foldble mini drone</td>
+                <td>85631</td>
+                <td>due</td>
+                <td class="warning">pending</td>
+
+                <td class="primary">Detatils</td>
+              </tr>
+              <tr>
+                <td>Foldble mini drone</td>
+                <td>85631</td>
+                <td>due</td>
+                <td class="warning">pending</td>
+
+                <td class="primary">Detatils</td>
+              </tr>
+              <tr>
+                <td>Foldble mini drone</td>
+                <td>85631</td>
+                <td>due</td>
+                <td class="warning">pending</td>
+
+                <td class="primary">Detatils</td>
+              </tr>
+              <tr>
+                <td>Foldble mini drone</td>
+                <td>85631</td>
+                <td>due</td>
+                <td class="warning">pending</td>
+
+                <td class="primary">Detatils</td>
+              </tr>
+            </tbody>
+          </table>
+          <a href="" class="show-all">Show All</a>
+        </div>
+      </main>
+      <div class="right">
+        <div class="top">
+          
+            <a href="#" id="ham-menu" class="ham-menu">
+              <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="M105 841v-91h750v91H105Zm0-219v-91h750v91H105Zm0-220v-92h750v92H105Z"/></svg>
+            </a>
+            <div class="theme-toggler">
+              <svg class="moon" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="M523.705 1029q-86.705 0-162.286-32.6-75.582-32.6-132.4-89.419-56.819-56.819-89.419-132.4Q107 699 107 612.298q0-155.744 99.5-271.021Q306 226 457 198q-13 101 14 197.5T571 564q70 72 167.5 98.5T937 683q-26 149-142.273 247.5T523.705 1029Z"/></svg>
+              <svg  class="sun active" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="M435 295V114h91v181h-91Zm275 115-65-65 129-128 65 64-129 129Zm51 211v-91h181v91H761Zm-326 416V856h91v181h-91ZM249 411 123 283l64-65 128 129-66 64Zm526 524L645 806l64-64 130 124-64 69ZM19 621v-91h181v91H19Zm169 313-66-65 128-128 33 32.073L317 804 188 934Zm291.647-124Q382 810 314 741.647q-68-68.353-68-166T314.353 410q68.353-68 166-68T646 410.353q68 68.353 68 166T645.647 742q-68.353 68-166 68Z"/></svg>
+            </div>
+            <div class="profile">
+              <div class="profile-photo">
+                <img src="./images/profile-1.jpg" alt="">
+              </div>
+              <div class="profile-info">
+                <p>hey <b>Qasem</b></p>
+                <small class="text-muted">Admin</small>
+              </div>
+            
+            </div>
+      
+        </div>
+        <div class="recent-updaates">
+          <h2 class="recent-updates">Recent Updates</h2>
+          <div class="updates">
+            <div class="update">
+
+              <div class="profile-photo">
+                <img src="/images/profile-2.jpg" alt="">
+              </div>
+              <div class="update-info">
+                <p><b>Abas Boazar</b>recived his order of GPS drones</p>
+                <small>2 Minutes ago</small>
+              </div>
+            </div>
+            <div class="update">
+
+              <div class="profile-photo">
+                <img src="/images/profile-2.jpg" alt="">
+              </div>
+              <div class="update-info">
+                <p><b>Abas Boazar</b>recived his order of GPS drones</p>
+                <small>2 Minutes ago</small>
+              </div>
+            </div>
+            <div class="update">
+
+              <div class="profile-photo">
+                <img src="/images/profile-2.jpg" alt="">
+              </div>
+              <div class="update-info">
+                <p><b>Abas Boazar</b>recived his order of GPS drones</p>
+                <small>2 Minutes ago</small>
+              </div>
+            </div>
+         
+           
+          </div>
+        </div>
+        <div class="sale-analytics">
+          <h2 class="">Sale Analysis</h2>
+<div class="analytics">
+  <div class="analytic">
+    <div class="logo-analy">
+     
+      <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="m348 731 368-101q17-5 25-16t3-28q-5-17-18-23.5t-28.796-2.367L594 587 428 425l-52 12 103 181-111 31-52-43-29 10 61 115Zm472 165H140q-24.75 0-42.375-17.625T80 836V683q37-8 61.5-37.5T166 576q0-40-24.5-70T80 469V316q0-24.75 17.625-42.375T140 256h680q24.75 0 42.375 17.625T880 316v520q0 24.75-17.625 42.375T820 896Zm0-60V316H140v109q39 26 62.5 65t23.5 86q0 47-23.5 86T140 727v109h680ZM480 576Z"/></svg>
+      
+    </div>
+    <div class="analytic-info">
+      <p>Online Orders</p>
+      <small class="text-muted">
+        last 24 hours
+      </small>
+    </div>
+      <div class="number-info">
+        <span ><b class="succses">28%</b> </span>
+        <span>8.48$</span>
+      </div>
+   
+  </div>
+  <div class="analytic">
+    <div class="logo-analy">
+     
+      <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="m348 731 368-101q17-5 25-16t3-28q-5-17-18-23.5t-28.796-2.367L594 587 428 425l-52 12 103 181-111 31-52-43-29 10 61 115Zm472 165H140q-24.75 0-42.375-17.625T80 836V683q37-8 61.5-37.5T166 576q0-40-24.5-70T80 469V316q0-24.75 17.625-42.375T140 256h680q24.75 0 42.375 17.625T880 316v520q0 24.75-17.625 42.375T820 896Zm0-60V316H140v109q39 26 62.5 65t23.5 86q0 47-23.5 86T140 727v109h680ZM480 576Z"/></svg>
+      
+    </div>
+    <div class="analytic-info">
+      <p>Online Orders</p>
+      <small class="text-muted">
+        last 24 hours
+      </small>
+    </div>
+      <div class="number-info">
+        <span ><b class="danger">48%</b> </span>
+        <span>2.45$</span>
+      </div>
+      
+   
+  </div>
+  <div class="analytic">
+    <div class="logo-analy">
+     
+      <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="m348 731 368-101q17-5 25-16t3-28q-5-17-18-23.5t-28.796-2.367L594 587 428 425l-52 12 103 181-111 31-52-43-29 10 61 115Zm472 165H140q-24.75 0-42.375-17.625T80 836V683q37-8 61.5-37.5T166 576q0-40-24.5-70T80 469V316q0-24.75 17.625-42.375T140 256h680q24.75 0 42.375 17.625T880 316v520q0 24.75-17.625 42.375T820 896Zm0-60V316H140v109q39 26 62.5 65t23.5 86q0 47-23.5 86T140 727v109h680ZM480 576Z"/></svg>
+      
+    </div>
+    <div class="analytic-info">
+      <p>Online Orders</p>
+      <small class="text-muted">
+        last 24 hours
+      </small>
+    </div>
+      <div class="number-info">
+        <span ><b class="succses">18%</b> </span>
+        <span>17.45$</span>
+      </div>
+      
+   
+  </div>
+  <div class="analytic">
+    <a class="analytic-btn">
+       + Add Prudoct
+    </a>
+  </div>
+  
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+    <script src="./HomeJs.js"></script>
+  </body>
+</html>
